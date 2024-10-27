@@ -5,8 +5,10 @@ import Arrow from '../../assets/Arrow';
 import SellButton from '../../assets/SellButton';
 import SellButtonPlus from '../../assets/SellButtonPlus';
 import logo from '../../assets/images/logo.png'
+import {useNavigate} from 'react-router-dom'
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
@@ -23,6 +25,11 @@ function Header() {
           <div className="searchAction">
             <Search color="#ffffff"></Search>
           </div>
+        </div>
+
+        <div className="loginPage" onClick={() => navigate('/login')}>
+          <span>Login</span>
+          <hr />
         </div>
 
         <div className="sellMenu">

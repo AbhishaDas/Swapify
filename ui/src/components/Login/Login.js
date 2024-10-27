@@ -59,7 +59,14 @@ const Login = () => {
           <input type="submit" value="Login" />
           </div>
 
+          <div className="text">
+            <h3>
+              Don't have an account? <a href="/signup">Register</a>
+            </h3>
+          </div>
+
         </form>
+        
       </div>
     </div>
   );

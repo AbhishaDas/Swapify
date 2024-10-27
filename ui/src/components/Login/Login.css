@@ -87,14 +87,15 @@ form h3{
   background: #0e4bf1;
 }
 form .text h3{
- color: #333;
- width: 100%;
- text-align: center;
-}
-form .text h3 a{
-  color: #4070f4;
-  text-decoration: none;
-}
-form .text h3 a:hover{
-  text-decoration: underline;
-}
+  color: #333;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+ }
+ form .text h3 a{
+   color: #4070f4;
+   text-decoration: none;
+ }
+ form .text h3 a:hover{
+   text-decoration: underline;
+ }
